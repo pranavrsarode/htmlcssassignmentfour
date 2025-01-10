@@ -1,7 +1,7 @@
 .main-content{
     background-color: rgba(234,244,246,255);
     height: 850px;
-    width: 700px;
+    width: 850px;
     margin-inline: auto;
     font-family: sans-serif;
     font-size: small;
@@ -49,3 +49,21 @@
     float: left;
 }
 
+.top-right-content{
+    background-color: rgba(202,230,234,255);
+    margin: 15px 350px;
+    height: 150px;
+    width: 55%;
+    right: 310px;
+    text-align: center;
+    color: black;
+    position: relative;
+    bottom: 185px;
+    left: 0px;
+    padding: 10px;
+}
+
+.top-right-content img{
+    height: 150px;
+    width: 100%;
+}
