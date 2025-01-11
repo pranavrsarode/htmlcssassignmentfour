@@ -1,13 +1,14 @@
 .main-content{
     background-color: rgba(234,244,246,255);
     height: 850px;
-    width: 850px;
+    width: 1200px;
     margin-inline: auto;
     font-family: sans-serif;
     font-size: small;
 }
 
-.header{
+.header label{
+    margin: 0px 15px;
     color: rgba(182,210,232,255);
 }
 
@@ -16,11 +17,15 @@
     float: right;
 }
 
+.row-content{
+    margin: 15px 15px;
+    height: 275px;
+}
+
 .top-left-content{
     background-color: rgba(202,230,234,255);
-    margin: 15px 15px;
-    height: 150px;
-    width: 35%;
+    height: 275px;
+    width: 30%;
     right: 310px;
     text-align: center;
     color: black;
@@ -32,12 +37,12 @@
     text-align: center;
     color: black;
     font-size: large;
-    margin: 30px 0px;
+    margin: 70px 0px;
 }
 
 .info-content{
     position: relative;
-    bottom: 10px;
+    bottom: 30px;
     text-align: center;
     color: black;
     font-size: xx-small;
@@ -51,19 +56,77 @@
 
 .top-right-content{
     background-color: rgba(202,230,234,255);
-    margin: 15px 350px;
-    height: 150px;
-    width: 55%;
-    right: 310px;
+    height: 275px;
+    width: 66%;
     text-align: center;
     color: black;
     position: relative;
-    bottom: 185px;
-    left: 0px;
+    bottom: 295px;
+    left: 380px;
     padding: 10px;
 }
 
 .top-right-content img{
-    height: 150px;
-    width: 100%;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+    height: 295px;
+    width: 795px;
+}
+
+.middle-content{
+    background-color: rgba(202,230,234,255);
+    height: 280px;
+    width: 1175px;
+    position: relative;
+    bottom: 285px;
+}
+
+.middle-content img{
+    height: 280px;
+    width: 1175px;   
+}
+
+.middle-content h2{
+    text-align: center;
+    position: relative;
+    bottom: 265px;
+}
+
+.middle-content hr{
+    position: relative;
+    bottom: 270px;
+    width: 40px;
+    color: black;
+}
+
+.middle-content p{
+    position: relative;
+    bottom: 265px;
+    width: 280px;
+    left: 450px;
+    font-size: smaller;
+    text-align: center;
+}
+
+.middle-content-one{
+    background-color: rgba(202, 230, 234, 255);
+    height: 180px;
+    width: 1175px;
+    position: relative;
+    top: 305px;
+    left: 15px;
+}
+
+.middle-content-one h2{
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.middle-content-one hr{
+    position: relative;
+    width: 40px;
+    color: black;
+    top: 70px;
 }
