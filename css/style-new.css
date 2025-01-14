@@ -1,0 +1,141 @@
+body{
+    margin: 0 0;
+    background-color: #0e0e0e;
+    font-family: "Didact Gothic", serif;
+}
+.main-content-wrapper{
+    background-color: rgb(234, 244, 246);
+    height: 1350px;
+    width: 676px;
+    margin-inline: auto;
+    font-size: 0.41em;
+}
+.main-content {
+    width: 632px;
+    margin: auto;
+    color: black;
+}
+.header {
+    color: rgb(153, 179, 204);
+    width: 632px;
+    height: 36px;
+    position: relative;
+}
+.page-title {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    width: 100px;
+    float: left;
+}
+.page-menu {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    width: 210px;
+    float: right;
+}
+.page-menu-item {
+    width: 70px;
+}
+.btn-layout {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1c6faf;
+    padding: 5px;
+    text-decoration: none;
+}
+.content-row {
+    width: 632px;
+    margin: 0 0 5px 0;
+    float: left;
+}
+.name-block {
+    height: 194px;
+    width: 206px;
+    background-color: rgb(203, 230, 234);
+    float: left;
+}
+.name-block-content {
+    width: 100%;
+}
+.name-block-title {
+    letter-spacing: 2px;
+    margin-top: 2.5em;
+}
+.div-title {
+    text-align: center;
+    margin-top: 2em;
+}
+.div-title h3 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+.div-title hr {
+    width: 25px;
+    border: 0.1em solid #4a4645;
+}
+.icon-title-card {
+    margin-top: 1.5em;
+}
+.icon-title-card{
+    font-size: 1.5rem;
+}
+.image-block {
+    height: 194px;
+    width: 420px;
+    float: right;
+}
+.image-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-me-block {
+    height: 227px;
+    width: inherit;
+    float: left;
+    background-image: url('../images/aboutmebackground.jpg');
+    background-size: 632px 227px;
+}
+.bootstrap-template-title-block {
+    background-color: rgb(203, 230, 234);
+    height: 100px;
+    width: inherit;
+    float: left;
+}
+.education-block {
+    background-color: rgb(203, 230, 234);
+    height: 227px;
+    width: 313px;
+    float: left;
+}
+.experience-block {
+    background-color: rgb(203, 230, 234);
+    height: 227px;
+    width: 313px;
+    float: right;
+}
+.pricing-block {
+    background-color: rgb(203, 230, 234);
+    height: 227px;
+    width: inherit;
+    float: left;
+}
+.my-services-block {
+    background-color: rgb(203, 230, 234);
+    height: 100px;
+    width: inherit;
+    float: left;
+}
+.services-block{
+    background-color: rgb(203, 230, 234);
+    height: 170px;
+    width: 152.5px;
+    float: left;
+    margin-left: 7px;
+    text-align: center;
+}
+.services-block p {
+    padding: 0 20px;
+}
